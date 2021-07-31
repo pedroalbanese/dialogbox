@@ -1,5 +1,5 @@
 # dialogbox
-## Cross-plataform Dialog Boxes Tool written in Go 
+## Cross-platform Dialog Boxes Tool written in Go 
 Custom Input/Dialog boxes to capture user input/choice for bash/batch scripting automation and interaction. A graphical control element in the form of a small window that communicates information to the user and prompts them for a response. 
 
 ### Usage of dialogbox:
