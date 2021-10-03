@@ -10,17 +10,19 @@ import (
 	"time"
 )
 
-var beep = flag.Bool("beep", false, "Beep alarm.")
-var date = flag.Bool("date", false, "Date selection dialog box.")
-var erro = flag.Bool("error", false, "Error dialog box.")
-var file = flag.Bool("file", false, "File selection dialog box.")
-var folder = flag.Bool("folder", false, "Folder selection dialog box.")
-var info = flag.Bool("info", false, "Info dialog box.")
-var input = flag.Bool("input", false, "Text input box.")
-var password = flag.Bool("pass", false, "Password input box.")
-var question = flag.Bool("quest", false, "Question dialog box. (Check the Exit code)")
-var subtitle = flag.String("sub", "Subtitle", "Box subtitle.")
-var title = flag.String("title", "Title", "Box title.")
+var (
+	beep     = flag.Bool("beep", false, "Beep alarm.")
+	date     = flag.Bool("date", false, "Date selection dialog box.")
+	erro     = flag.Bool("error", false, "Error dialog box.")
+	file     = flag.Bool("file", false, "File selection dialog box.")
+	folder   = flag.Bool("folder", false, "Folder selection dialog box.")
+	info     = flag.Bool("info", false, "Info dialog box.")
+	input    = flag.Bool("input", false, "Text input box.")
+	password = flag.Bool("pass", false, "Password input box.")
+	question = flag.Bool("quest", false, "Question dialog box. (Check the Exit code)")
+	subtitle = flag.String("sub", "Subtitle", "Box subtitle.")
+	title    = flag.String("title", "Title", "Box title.")
+)
 
 func main() {
 	flag.Parse()
