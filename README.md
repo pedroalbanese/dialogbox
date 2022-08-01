@@ -3,26 +3,26 @@
 Custom Input/Dialog boxes to get user input/choice for bash/batch scripting automation and interaction. A graphical control element in the form of a small window that communicates information to the user and prompts them for a response. 
 
 ### Usage of dialogbox:
-<pre>  -date
-        Date selection dialog box
-  -error
-        Error dialog box
-  -file
-        File selection dialog box
-  -folder
-        Folder selection dialog box
-  -info
-        Info dialog box
-  -input
-        Text input box
-  -pass
-        Password input box
-  -quest
-        Question dialog box (Check the Exit code)
-  -sub string
-        Box subtitle (default "Subtitle")
-  -title string
-        Box title (default "Title")</pre>
+<pre> -date
+       Date selection dialog box
+ -error
+       Error dialog box
+ -file
+       File selection dialog box
+ -folder
+       Folder selection dialog box
+ -info
+       Info dialog box
+ -input
+       Text input box
+ -pass
+       Password input box
+ -quest
+       Question dialog box (Check the Exit code)
+ -sub string
+       Box subtitle (default "Subtitle")
+ -title string
+       Box title (default "Title")</pre>
 
 ### Examples:
 Password insertion:
