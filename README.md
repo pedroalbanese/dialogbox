@@ -42,4 +42,6 @@ echo %ERRORLEVEL%</pre>
 ### Linux:
 <pre>$ apt-get install zenity</pre>
 
-##### Copyright (c) 2020-2022 - ALBANESE Lab
+## License
+This project is licensed under the ISC License.
+##### Copyright (c) 2020-2022 Pedro F. Albanese - ALBANESE Research Lab.
