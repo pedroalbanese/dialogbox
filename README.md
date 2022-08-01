@@ -1,30 +1,28 @@
 # dialogbox
 ## Cross-platform Dialog Boxes Tool written in Go 
-Custom Input/Dialog boxes to capture user input/choice for bash/batch scripting automation and interaction. A graphical control element in the form of a small window that communicates information to the user and prompts them for a response. 
+Custom Input/Dialog boxes to get user input/choice for bash/batch scripting automation and interaction. A graphical control element in the form of a small window that communicates information to the user and prompts them for a response. 
 
 ### Usage of dialogbox:
-<pre> -beep
-       Beep alarm.
- -date
-       Date selection dialog box.
- -error
-       Error dialog box.
- -file
-       File selection dialog box.
- -folder
-       Folder selection dialog box.
- -info
-       Info dialog box.
- -input
-       Text input box.
- -pass
-       Password input box.
- -quest
-       Question dialog box. (Check the Exit code)
- -sub string
-       Box subtitle. (default "Subtitle")
- -title string
-       Box title. (default "Title")</pre>
+<pre>  -date
+        Date selection dialog box
+  -error
+        Error dialog box
+  -file
+        File selection dialog box
+  -folder
+        Folder selection dialog box
+  -info
+        Info dialog box
+  -input
+        Text input box
+  -pass
+        Password input box
+  -quest
+        Question dialog box (Check the Exit code)
+  -sub string
+        Box subtitle (default "Subtitle")
+  -title string
+        Box title (default "Title")</pre>
 
 ### Examples:
 Password insertion:
@@ -44,4 +42,4 @@ echo %ERRORLEVEL%</pre>
 ### Linux:
 <pre>$ apt-get install zenity</pre>
 
-##### Copyright (c) 2020-2021 - ALBANESE Lab
+##### Copyright (c) 2020-2022 - ALBANESE Lab
