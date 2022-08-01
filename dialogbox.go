@@ -3,7 +3,6 @@ package main
 import (
 	"flag"
 	"fmt"
-	"github.com/pedroalbanese/beeep"
 	"github.com/pedroalbanese/dlgs"
 	"log"
 	"os"
@@ -11,17 +10,16 @@ import (
 )
 
 var (
-	beep     = flag.Bool("beep", false, "Beep alarm.")
-	date     = flag.Bool("date", false, "Date selection dialog box.")
-	erro     = flag.Bool("error", false, "Error dialog box.")
-	file     = flag.Bool("file", false, "File selection dialog box.")
-	folder   = flag.Bool("folder", false, "Folder selection dialog box.")
-	info     = flag.Bool("info", false, "Info dialog box.")
-	input    = flag.Bool("input", false, "Text input box.")
-	password = flag.Bool("pass", false, "Password input box.")
-	question = flag.Bool("quest", false, "Question dialog box. (Check the Exit code)")
-	subtitle = flag.String("sub", "Subtitle", "Box subtitle.")
-	title    = flag.String("title", "Title", "Box title.")
+	date     = flag.Bool("date", false, "Date selection dialog box")
+	erro     = flag.Bool("error", false, "Error dialog box")
+	file     = flag.Bool("file", false, "File selection dialog box")
+	folder   = flag.Bool("folder", false, "Folder selection dialog box")
+	info     = flag.Bool("info", false, "Info dialog box")
+	input    = flag.Bool("input", false, "Text input box")
+	password = flag.Bool("pass", false, "Password input box")
+	question = flag.Bool("quest", false, "Question dialog box (Check the Exit code)")
+	subtitle = flag.String("sub", "Subtitle", "Box subtitle")
+	title    = flag.String("title", "Title", "Box title")
 )
 
 func main() {
@@ -97,9 +95,5 @@ func main() {
 			log.Fatal(err)
 		}
 		fmt.Println(dat.Format("2006-01-02"))
-	}
-
-	if *beep == true {
-		_ = beeep.Beep(beeep.DefaultFreq, beeep.DefaultDuration)
 	}
 }
